@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "ModuleLib"
   s.version      = "0.0.1"
-  s.summary      = "A short description of ModuleLib."
+  s.summary      = "A short"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+			A short description of ModuleLib. Wirte some  skds
                    DESC
 
   s.homepage     = "https://github.com/kzl19950907/ModuleRepository"
@@ -79,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/kzl19950907/ModuleRepository.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/kzl19950907/ModuleRepository", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -132,6 +133,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   s.dependency = "AFNetWorking"
+  # s.dependency = 'AFNetWorking'
 
 end
